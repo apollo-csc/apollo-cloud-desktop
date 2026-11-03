@@ -41,7 +41,7 @@ jobs:
             || echo "[apollo] Xcode 16.3 ausente; usando o default do runner"
           xcodebuild -version
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           # precisa casar com Paths/Python do [macos-clang-arm64] no craftmaster.ini
           python-version: '3.12.3'
